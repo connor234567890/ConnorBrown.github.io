@@ -20,15 +20,34 @@
       text-align: center;
     }
 
+    nav {
+      text-align: center;
+      margin: 20px auto 0 auto;
+      padding: 10px 0;
+      max-width: 800px;
+    }
+
+    nav a {
+      color: #1f2a44;
+      text-decoration: none;
+      font-weight: 700;
+      margin: 0 8px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
     main {
       max-width: 800px;
-      margin: 40px auto;
+      margin: 25px auto 40px auto;
       padding: 0 20px;
     }
 
     ul.post-list {
       list-style: none;
       padding: 0;
+      margin: 0;
     }
 
     ul.post-list li {
@@ -45,10 +64,14 @@
       font-weight: 600;
     }
 
+    ul.post-list a:hover {
+      text-decoration: underline;
+    }
+
     .date {
       color: #666;
       font-size: 0.9em;
-      margin-top: 5px;
+      margin-top: 6px;
     }
 
     footer {
@@ -66,39 +89,49 @@
   <p>Tracking how artificial intelligence is reshaping modern video games</p>
 </header>
 
+<nav>
+  <a href="index.html">Home</a> |
+  <a href="ai-npc-dialogue-deep-dive.html">Research</a> |
+  <a href="resources.html">Resources</a> |
+  <a href="about.html">About</a>
+</nav>
+
 <main>
   <ul class="post-list">
-<li>
-  <a href="ai-npc-dialogue-deep-dive.html">AI-Driven NPC Dialogue: Where RPGs Are Headed Next</a>
-  <div class="date">February 15, 2026</div>
-</li>
 
-  <li>
-    <a href="ai-npc-dialogue.html">AI-Generated NPC Dialogue Is Changing RPG Design</a>
-    <div class="date">February 1, 2026</div>
-  </li>
+    <!-- NEWEST POSTS GO AT THE TOP -->
 
-  <li>
-    <a href="news-item-1.html">NVIDIA’s ACE Brings Real AI NPCs Into Games</a>
-    <div class="date">January 15, 2026</div>
-  </li>
+    <li>
+      <a href="ai-npc-dialogue-deep-dive.html">AI-Driven NPC Dialogue: Where RPGs Are Headed Next</a>
+      <div class="date">February 15, 2026</div>
+    </li>
 
-  <li>
-    <a href="news-item-2.html">Unity’s AI Tools Are Reshaping Indie Game Development</a>
-    <div class="date">January 15, 2026</div>
-  </li>
+    <li>
+      <a href="ai-npc-dialogue.html">AI-Generated NPC Dialogue Is Changing RPG Design</a>
+      <div class="date">February 1, 2026</div>
+    </li>
 
-  <li>
-    <a href="news-item-3.html">AI NPC Mods Are Changing Single-Player Games</a>
-    <div class="date">January 15, 2026</div>
-  </li>
+    <li>
+      <a href="news-item-1.html">NVIDIA’s ACE Brings Real AI NPCs Into Games</a>
+      <div class="date">January 15, 2026</div>
+    </li>
 
-  <li>
-    <a href="about.html">About This Newsletter</a>
-  </li>
+    <li>
+      <a href="news-item-2.html">Unity’s AI Tools Are Reshaping Indie Game Development</a>
+      <div class="date">January 15, 2026</div>
+    </li>
 
-</ul>
+    <li>
+      <a href="news-item-3.html">AI NPC Mods Are Changing Single-Player Games</a>
+      <div class="date">January 15, 2026</div>
+    </li>
 
+    <li>
+      <a href="about.html">About This Newsletter</a>
+      <div class="date">Learn what this newsletter covers</div>
+    </li>
+
+  </ul>
 </main>
 
 <footer>
